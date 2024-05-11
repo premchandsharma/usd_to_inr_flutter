@@ -52,7 +52,8 @@ class _CurrencyConverterMeterialPage
               ),
             ),
             Container(
-              padding: const EdgeInsets.fromLTRB(100, 20, 100, 20),
+              constraints: const BoxConstraints(maxWidth: 500),
+              padding: const EdgeInsets.fromLTRB(28, 20, 28, 20),
               child: TextField(
                 controller: textEditingController,
                 style: const TextStyle(
